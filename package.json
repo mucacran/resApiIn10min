@@ -1,0 +1,27 @@
+{
+  "name": "apires10min",
+  "version": "1.0.0",
+  "description": "este es un proyecto basado en un tutorial que me enseña a crear un api rest en 10 minutos pero ya han pasado como 40 minutos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mucacran/resApiIn10min.git"
+  },
+  "author": "MUCACRAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mucacran/resApiIn10min/issues"
+  },
+  "homepage": "https://github.com/mucacran/resApiIn10min#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1"
+  }
+}
